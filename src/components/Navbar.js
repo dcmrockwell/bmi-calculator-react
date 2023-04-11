@@ -3,6 +3,7 @@ import logout from "../assets/logout.svg";
 import user from "../assets/user.svg"
 import menu from "../assets/menu.svg"
 import close from "../assets/close.svg"
+import logo from "../assets/fitfinder.png"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -14,7 +15,8 @@ const Navbar = () => {
     <div className="w-full h-[80px] fixed drop-shadow-lg bg-medium-blue">
       <div className="flex flex-row justify-between items-center py-5 px-5 lg:px-20 2xl:px-40 2xl:justify-center 2xl:gap-32">
         <div>
-          <h1 className="font-bold text-lg cursor-pointer">FitFinder.</h1>
+          <h1 className="font-bold text-lg cursor-pointer">FitPal.</h1>
+        
         </div>
 
         <ul className="hidden lg:flex gap-16 2xl:gap-5 ">
